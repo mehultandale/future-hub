@@ -1,19 +1,31 @@
 
 
+/* React */
 import { 
     createBrowserRouter, 
     RouterProvider,
     Link 
 } from "react-router-dom";
+
+/* Styling */
 import './index.css';
 
 
-function App1() {
+/* Main header */
+function MainHeader() {
+    return (
+        <h1>FutureHub</h1>
+    );
+}
+
+
+/* Home page */
+function Home() {
     return (
         <div>
-            <h1>FutureHub</h1>
+            <MainHeader />
             <h4>Find the gaps in your knowledge of Frontend skills.</h4>
-            <Link to={'/test'} >
+            <Link to={'/programming-languages'} >
                 <button>TAKE THE FREE TEST</button>
             </Link>
             <p>You could learn something new today and become an even better programmer.</p>
@@ -22,6 +34,7 @@ function App1() {
 }
 
 
+/* Test (Quiz) page */
 function Test() {
     return (
         <div>
@@ -31,10 +44,25 @@ function Test() {
 }
 
 
+/* Categories page */
+function ProgrammingLanguages() {
+    return (
+        <div>
+            <MainHeader />
+        </div>
+    );
+}
+
+
+/* All routes */
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <App1 />
+        element: <Home />
+    },
+    {
+        path: "/programming-languages",
+        element: <ProgrammingLanguages />
     },
     {
         path: "/test",
@@ -43,6 +71,7 @@ const router = createBrowserRouter([
 ]);
 
 
+/* Main component */
 function App() {
     return (
         <RouterProvider router={router} />
