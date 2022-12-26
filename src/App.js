@@ -1,37 +1,20 @@
 
 
 /* React */
-import { 
-    createBrowserRouter, 
+import {
+    createBrowserRouter,
     RouterProvider,
-    Link 
+    Link
 } from "react-router-dom";
+
+/* Pages */
+import Home from "./pages/homePage";
+
+/* Components */
+import MainHeader from "./components/mainHeader";
 
 /* Styling */
 import './index.css';
-
-
-/* Main header */
-function MainHeader() {
-    return (
-        <h1>FutureHub</h1>
-    );
-}
-
-
-/* Home page */
-function Home() {
-    return (
-        <div>
-            <MainHeader />
-            <h4>Find the gaps in your knowledge of Frontend skills.</h4>
-            <Link to={'/programming-languages'} >
-                <button>TAKE THE FREE TEST</button>
-            </Link>
-            <p>You could learn something new today and become an even better programmer.</p>
-        </div>
-    );
-}
 
 
 /* Single answer button */
