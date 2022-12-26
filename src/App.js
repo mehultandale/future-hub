@@ -3,17 +3,13 @@
 /* React */
 import {
     createBrowserRouter,
-    RouterProvider,
-    Link
+    RouterProvider
 } from "react-router-dom";
 
 /* Pages */
 import Home from "./pages/homePage";
 import Test from "./pages/testPage";
 import ProgrammingLanguages from "./pages/ProgrammingLanguagePage.jsx";
-
-/* Components */
-import MainHeader from "./components/mainHeader";
 
 /* Styling */
 import './index.css';
