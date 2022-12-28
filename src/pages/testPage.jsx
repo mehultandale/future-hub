@@ -1,5 +1,9 @@
 
 
+/* Components */
+import MainHeader from "../components/mainHeader";
+
+
 /* Single answer button */
 function AnswerOption(props) {
     function answerReceived() {
@@ -14,6 +18,14 @@ function AnswerOption(props) {
 function Test() {
     return (
         <div>
+            <button>
+                Save progress
+            </button>
+            <div>
+                <h4>Lorem ipsum</h4>
+                <p>Your current level</p>
+            </div>
+            <MainHeader />
             <p>Question 1</p>
             <AnswerOption label="Compiled" />
             <AnswerOption label="Interpreted" />
