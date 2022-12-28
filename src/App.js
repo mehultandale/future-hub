@@ -12,7 +12,7 @@ import Test from "./pages/testPage";
 import ProgrammingLanguages from "./pages/ProgrammingLanguagePage.jsx";
 
 /* Styling */
-import './index.css';
+import './scss/index.css';
 
 
 /* All routes */
