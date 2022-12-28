@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
 
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
 
 .mnt-bold {
 	font-family: "Montserrat";
@@ -9,3 +10,44 @@
 	font-family: "Montserrat";
 	font-weight: 100;
 }
+/* end Fonts */
+
+
+/* Header */
+.logo-txt {
+	font-size: 1.4em;
+	text-align: center;
+	padding-top: 2.5em;
+	padding-bottom: 2.5em;
+}
+/* end Header */
+
+
+/* Pages */
+.homepage-wrap {
+	text-align: center;
+
+	h4 {
+		font-family: "Montserrat";
+		font-weight: 300;
+		padding-bottom: 1.5em;
+		margin-bottom: 0em;
+	}
+	p {
+		font-family: "Montserrat";
+		font-size: 0.75em;
+		font-weight: 300;
+	}
+	button {
+		background: #343434;
+		color: #fff;
+		font-family: "Montserrat";
+		font-weight: 700;
+		cursor: pointer;
+		border: none;
+		border-radius: 4px;
+		padding: 1em;
+		margin-bottom: 1.5em;
+	}
+}
+/* end Pages */

@@ -10,7 +10,7 @@ import MainHeader from "../components/mainHeader";
 /* Home page */
 function Home() {
     return (
-        <div>
+        <div className="homepage-wrap" >
             <MainHeader />
             <h4>Find the gaps in your knowledge of Frontend skills.</h4>
             <Link to={'/programming-languages'} >
