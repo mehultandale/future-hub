@@ -14,7 +14,7 @@ function Home() {
             <MainHeader />
             <h4>Find the gaps in your knowledge of Frontend skills.</h4>
             <Link to={'/programming-languages'} >
-                <button>TAKE THE FREE TEST</button>
+                <button className="button-type-1" >TAKE THE FREE TEST</button>
             </Link>
             <p>You could learn something new today and become an even better programmer.</p>
         </div>

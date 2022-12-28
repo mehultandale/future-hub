@@ -11,7 +11,7 @@ import MainHeader from "../components/mainHeader";
 function SingleCategory(props) {
     return (
         <Link to={'/test'} >
-            <button>{ props.name }</button>
+            <button className="button-type-1 category-btn" >{ props.name }</button>
         </Link>
     );
 }
@@ -20,7 +20,7 @@ function SingleCategory(props) {
 /* Categories page */
 function ProgrammingLanguages() {
     return (
-        <div>
+        <div className="programming-languages-page" >
             <MainHeader />
             <p>I would like to improve on</p>
             <SingleCategory name="HTML & CSS" />
